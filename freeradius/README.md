@@ -4,6 +4,8 @@ Ubersmith can provide authentication services to a FreeRADIUS server using the m
 
 ### Configuration
 
+Ensure that a recent version of the PHP command line interface (5.2, 5.3 preferred) is installed on your FreeRADIUS server.
+
 Create the file `/opt/freeradius/etc/raddb/modules/uber`, with the following contents:
 
     exec uber {
