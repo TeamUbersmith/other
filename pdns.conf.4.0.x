@@ -79,12 +79,12 @@ local-port=53
 #################################
 # daemon	Operate as a daemon
 #
-daemon=yes
+# daemon=no
 
 #################################
 # guardian	Run within a guardian process
 #
-guardian=yes
+# guardian=no
 
 #################################
 # config-dir	Location of configuration directory (pdns.conf)
@@ -101,7 +101,7 @@ disable-axfr=yes
 # module-dir	Default directory for modules
 #
 # module-dir=/usr/lib/pdns  #Debian Systems Path
-module-dir=/usr/lib64/pdns
+
 
 #################################
 # setgid	If set, change group id to this gid for more security
@@ -215,7 +215,7 @@ socket-dir=/var/run
 #################################
 # loglevel	Amount of logging. Higher is more. Do not set below 3
 #
-# loglevel=4
+loglevel=9
 
 #################################
 # master	Act as a master
